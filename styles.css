@@ -124,6 +124,12 @@ h3 { font-size: 1.15rem; }
 
 /* ── Blog ── */
 .blog-post { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); padding: 2rem; max-width: 800px; }
+.blog-preview-section { background: var(--gold-pale); }
+.blog-preview-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); padding: 2rem; max-width: 720px; border-left: 4px solid var(--gold); }
+.blog-preview-card h3 { margin: 0.5rem 0 1rem; }
+.blog-preview-card h3 a { color: var(--brand); text-decoration: none; }
+.blog-preview-card h3 a:hover { text-decoration: underline; }
+.blog-preview-card p { color: var(--muted); margin: 0 0 1.5rem; }
 
 /* ── Responsive ── */
 @media (max-width: 860px) {
