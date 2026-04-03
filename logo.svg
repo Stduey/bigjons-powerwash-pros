@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Big Jon's PowerWash Pros logo">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a01e2e"/>
+      <stop offset="100%" stop-color="#6b0f1a"/>
+    </radialGradient>
+    <radialGradient id="rimGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f5c842"/>
+      <stop offset="100%" stop-color="#c89a10"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Starburst / outer ring -->
+  <polygon points="100,4 104,17 116,8 114,22 128,16 122,29 137,27 128,38 143,40 131,49 146,55 131,61 143,72 127,74 136,87 120,86 125,100 109,96 110,111 95,104 92,119 80,109 73,124 64,111 54,123 49,108 37,117 35,101 22,107 24,91 10,93 16,78 3,76 13,63 0,57 13,47 2,38 17,32 9,20 24,18 19,5 34,7 32,-6 46,0" fill="#f5c842" opacity="0"/>
+
+  <!-- Outer gold ring -->
+  <circle cx="100" cy="100" r="97" fill="#c89a10"/>
+
+  <!-- Star points on outer ring -->
+  <polygon points="100,3 103,13 112,7 111,17 121,13 117,23 128,22 121,30 132,33 123,39 133,45 122,48 130,57 118,57 123,67 111,64 113,74 101,68 100,79 89,68 77,74 79,64 67,67 72,57 60,57 68,48 57,45 67,39 58,33 69,30 62,22 73,23 69,13 79,17 78,7 87,13 90,3" fill="#f5d060"/>
+
+  <!-- Dark maroon main circle -->
+  <circle cx="100" cy="100" r="88" fill="url(#bgGrad)"/>
+
+  <!-- Inner gold border ring -->
+  <circle cx="100" cy="100" r="88" fill="none" stroke="#f5c842" stroke-width="3"/>
+  <circle cx="100" cy="100" r="82" fill="none" stroke="#f5c842" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+  <!-- Top arc text: BIG JON'S -->
+  <path id="topArc" d="M 28,100 A 72,72 0 0,1 172,100" fill="none"/>
+  <text font-family="'Arial Black', 'Impact', sans-serif" font-size="17" font-weight="900" fill="#f5c842" letter-spacing="3">
+    <textPath href="#topArc" startOffset="50%" text-anchor="middle">BIG JON'S</textPath>
+  </text>
+
+  <!-- Bottom arc text: PROS -->
+  <path id="bottomArc" d="M 32,110 A 72,72 0 0,0 168,110" fill="none"/>
+  <text font-family="'Arial Black', 'Impact', sans-serif" font-size="16" font-weight="900" fill="#f5c842" letter-spacing="4">
+    <textPath href="#bottomArc" startOffset="50%" text-anchor="middle">PROS</textPath>
+  </text>
+
+  <!-- Center water droplet / spray icon -->
+  <ellipse cx="100" cy="82" rx="14" ry="14" fill="#4ab8e0" opacity="0.9"/>
+  <path d="M100 62 Q108 74 108 82 A8 8 0 0 1 92 82 Q92 74 100 62Z" fill="#2196c4"/>
+  <!-- Spray lines -->
+  <line x1="100" y1="64" x2="86" y2="54" stroke="#4ab8e0" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+  <line x1="100" y1="64" x2="80" y2="60" stroke="#4ab8e0" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  <line x1="100" y1="64" x2="114" y2="54" stroke="#4ab8e0" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+  <line x1="100" y1="64" x2="120" y2="60" stroke="#4ab8e0" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Center text: POWERWASH -->
+  <text x="100" y="108" font-family="'Arial Black', 'Impact', sans-serif" font-size="15" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="1">POWERWASH</text>
+
+  <!-- Decorative line under -->
+  <line x1="50" y1="114" x2="150" y2="114" stroke="#f5c842" stroke-width="1.5"/>
+</svg>
