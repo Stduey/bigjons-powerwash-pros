@@ -123,7 +123,18 @@ h3 { font-size: 1.15rem; }
 .copyright { text-align: center; color: #8b6a6e; margin: 1.5rem 0 0; font-size: 0.85rem; }
 
 /* ── Blog ── */
+.blog-hero { background: linear-gradient(135deg, #6b0f1a 0%, #8b1a24 100%); color: white; padding: 2.5rem 0 2rem; }
+.blog-hero .eyebrow { color: var(--gold-light); margin-bottom: 0.75rem; }
+.blog-hero .eyebrow a { color: var(--gold-light); text-decoration: none; }
+.blog-hero .eyebrow a:hover { text-decoration: underline; }
+.blog-hero h1 { color: white; font-size: clamp(1.6rem, 3vw, 2.4rem); margin: 0 0 0.5rem; max-width: 760px; }
+.blog-hero-meta { color: #f5e0e3; margin: 0; font-size: 0.9rem; }
+.blog-main { padding-top: 2rem; }
 .blog-post { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); padding: 2rem; max-width: 800px; }
+.blog-read-time { color: var(--muted); font-size: 0.85rem; margin: 0 0 1.5rem; }
+.blog-cta { background: var(--gold-pale); border: 1px solid var(--gold); border-radius: 16px; padding: 1.5rem; margin-top: 2rem; }
+.blog-cta p { margin: 0 0 1rem; color: var(--text); }
+.blog-cta .button { background: var(--brand); }
 .blog-preview-section { background: var(--gold-pale); }
 .blog-preview-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); padding: 2rem; max-width: 720px; border-left: 4px solid var(--gold); }
 .blog-preview-card h3 { margin: 0.5rem 0 1rem; }
