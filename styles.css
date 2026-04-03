@@ -29,7 +29,7 @@ a { color: inherit; }
 
 /* Logo in nav */
 .brand { text-decoration: none; display: flex; align-items: center; }
-.brand-logo { height: 56px; width: auto; flex-shrink: 0; }
+.brand-logo { width: 56px; height: 56px; flex-shrink: 0; }
 .brand-text { display: flex; flex-direction: column; }
 .brand-name { font-weight: 900; font-size: 1rem; letter-spacing: -0.01em; color: #ffffff; line-height: 1.1; }
 .brand-tagline { font-size: 0.7rem; font-weight: 600; color: var(--gold-light); letter-spacing: 0.08em; text-transform: uppercase; }
@@ -63,7 +63,7 @@ h3 { font-size: 1.15rem; }
 
 /* Hero card (right side) */
 .hero-card { background: rgba(255,255,255,0.08); border: 1px solid rgba(245,200,66,0.3); border-radius: var(--radius); box-shadow: var(--shadow); padding: 2rem; min-height: 340px; position: relative; overflow: hidden; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1.5rem; }
-.hero-logo-large { width: 260px; height: auto; filter: drop-shadow(0 8px 24px rgba(200,154,16,0.5)); }
+.hero-logo-large { width: 220px; height: 220px; filter: drop-shadow(0 8px 24px rgba(200,154,16,0.5)); }
 .spray { position: absolute; inset: -20% auto auto 55%; width: 260px; height: 260px; background: radial-gradient(circle, rgba(245,200,66,0.15), transparent 64%); transform: rotate(22deg); }
 .card-label { font-weight: 700; color: var(--gold-light); font-size: 1rem; margin: 0; text-align: center; }
 .hero-card h2 { color: white; font-size: 1.2rem; text-align: center; margin: 0; }
@@ -115,7 +115,7 @@ h3 { font-size: 1.15rem; }
 .site-footer { padding: 2rem 0 2.5rem; background: #1a0a0d; color: #f5e8e0; border-top: 3px solid var(--gold); }
 .footer-grid { grid-template-columns: repeat(3, minmax(0,1fr)); align-items: center; }
 .footer-brand { display: flex; align-items: center; gap: 0.6rem; }
-.footer-logo { height: 48px; width: auto; }
+.footer-logo { width: 52px; height: 52px; }
 .footer-brand-text strong { font-size: 1rem; color: white; }
 .footer-brand-text p { margin: 0.2rem 0 0; font-size: 0.85rem; color: #c89a10; }
 .site-footer a { color: var(--gold-light); text-decoration: none; }
@@ -131,5 +131,5 @@ h3 { font-size: 1.15rem; }
   .nav { flex-direction: column; align-items: flex-start; }
   .city-list { grid-template-columns: 1fr; }
   .hero { padding-top: 2.5rem; }
-  .hero-logo-large { width: 200px; height: auto; }
+  .hero-logo-large { width: 170px; height: 170px; }
 }
