@@ -89,6 +89,9 @@ h3 { font-size: 1.15rem; }
 /* ── Service area ── */
 .city-list { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 0.9rem; list-style: none; padding: 0; margin: 0; }
 .city-list li { background: white; padding: 0.75rem 1rem; border-radius: 12px; border: 1px solid var(--line); font-weight: 600; color: var(--brand); border-left: 3px solid var(--gold); }
+.local-seo { background: #ffffff; }
+.keyword-grid { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 0.8rem; }
+.keyword-grid span { border: 1px solid var(--line); border-left: 3px solid var(--gold); border-radius: 14px; padding: 0.85rem 1rem; color: var(--brand); background: #fff; font-weight: 700; }
 
 /* ── Contact ── */
 .contact-section { background: linear-gradient(180deg, #6b0f1a 0%, #8b1a24 100%); color: white; }
@@ -147,6 +150,7 @@ h3 { font-size: 1.15rem; }
   .hero-grid, .two-column, .card-grid, .footer-grid { grid-template-columns: 1fr; }
   .nav { flex-direction: column; align-items: flex-start; }
   .city-list { grid-template-columns: 1fr; }
+  .keyword-grid { grid-template-columns: 1fr; }
   .hero { padding-top: 2.5rem; }
   .hero-logo-large { width: 170px; height: 170px; }
 }
